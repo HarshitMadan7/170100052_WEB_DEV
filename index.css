@@ -14,7 +14,7 @@ table{
   border-style: double;
   padding: 5%;
   background-color: lightblue;
-  border-spacing: 5%;
+  border-spacing: 10px;
   border-collapse: separate;
 }
 h1 {
