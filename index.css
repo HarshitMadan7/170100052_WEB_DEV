@@ -9,7 +9,7 @@
   display: block;
 }
 .div2 {
-  width: 500px;
+  width: 100%;
   height: 500px;
   background-image:url('Sample_Image.jpg');
 }
