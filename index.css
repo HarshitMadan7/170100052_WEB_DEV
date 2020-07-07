@@ -1,19 +1,19 @@
 
 .div1 {
-  border: 5px outset red;
   background-color: lightblue;
   margin-left: 10%;  
   width: 80%;
   /*border: 0.5px solid black;
   border-radius: 20px;
-  border-style: double;*/
-  padding: 5%;
+  border-style: double;
+  padding: 5%;*/
   display: block;
 }
 table{
   border: 0.5px solid black;
   border-radius: 20px;
   border-style: double;
+  padding: 5%;
 }
 h1 {
     color: green;
