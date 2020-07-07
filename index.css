@@ -8,10 +8,13 @@ h1 {
 }
 
 p1 {
-  font-family: cursive;
-  color: black;
+    font-family: cursive;
+    color: black;
 }
 p2 {
-  font-family: cursive;
-  color: blue;
+    font-family: cursive;
+    color: blue;
+}
+ul{
+    list-style-image: url(star.svg);
 }
