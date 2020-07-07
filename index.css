@@ -9,7 +9,8 @@
   display: block;
 }
 .div2 {
-  width: 100%;
+  width: 500px;
+  height: 500px;
   background-image:url('Sample_Image.jpg');
 }
 table{
