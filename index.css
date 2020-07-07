@@ -1,6 +1,5 @@
 
 .div1 {
-  background-color: lightblue;
   margin-left: 10%;  
   width: 80%;
   /*border: 0.5px solid black;
@@ -14,6 +13,8 @@ table{
   border-radius: 20px;
   border-style: double;
   padding: 5%;
+  spacing: 5%;
+  background-color: lightblue;
 }
 h1 {
     color: green;
