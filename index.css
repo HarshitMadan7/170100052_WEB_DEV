@@ -13,8 +13,9 @@ table{
   border-radius: 20px;
   border-style: double;
   padding: 5%;
-  spacing: 5%;
   background-color: lightblue;
+  border-spacing: 5%;
+  border-collapse: separate;
 }
 h1 {
     color: green;
