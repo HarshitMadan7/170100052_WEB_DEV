@@ -1,5 +1,10 @@
 
-
+.div1 {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: left;
+  margin-left: 40%;  
+}
 h1 {
     color: green;
     /*font-size: 5em;*/
