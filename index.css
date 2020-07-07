@@ -16,5 +16,5 @@ p2 {
     color: blue;
 }
 ul{
-    list-style-image: url(star.svg);
+    list-style-image: url('star.svg');
 }
