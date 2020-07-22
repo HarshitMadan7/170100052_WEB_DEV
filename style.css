@@ -23,7 +23,7 @@ nav{
 .nav-links{
     display: flex;
     /*justify-content: space-around;*/
-    width: 80%;
+    width: 100%;
 }
 
 .nav-links li{
@@ -32,10 +32,10 @@ nav{
 
 .nav-links a{
     color: rgb(226, 226, 226);
-    text-decoration: none;
-    letter-spacing: 0px;
+    /*text-decoration: none;*/
+    /*letter-spacing: 0px;*/
     font-weight: bold;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .burger{
