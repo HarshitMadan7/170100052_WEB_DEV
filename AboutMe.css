@@ -1,4 +1,9 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 .div1 {
   /*margin-left: 10%;*/  
   width: 100%;
