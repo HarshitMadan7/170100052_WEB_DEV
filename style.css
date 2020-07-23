@@ -62,7 +62,7 @@ nav{
         /*overflow-x: hidden;*/
     }
     .nav-links{
-        position: relative;/*Here I made some changes*/
+        position: absolute;
         right: 0%;
         height: 92vh;
         top: 15vh;
