@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background-color: #5d4954;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-links li{
+    list-style: none;   
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        /*overflow-x: hidden;*/
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.LBOs{
+    width: 100%;
+    display: block;
+    background-image: url("finance_dark_pattern.jpg");
+    background-size: contain;
+}
+.LBOs h1{
+    color: whitesmoke;
+    /*font-size: 5em;*/
+    text-shadow: 1px 1px 1px greenyellow;
+    text-decoration: underline overline;
+}
+.Electronics{
+    width: 100%;
+    display: block;
+    background-image: url("circuit-board-background.jpg");
+}
+.Contact{
+    width: 100%;
+    display: block;
+    background-image: url("rough_white_background.jfif");
+}
+h1{
+    color: green;
+    /*font-size: 5em;*/
+    text-shadow: 1px 1px 1px red;
+    text-decoration: underline overline;
+}
+table{
+    /*align-self: center;
+    margin-left: 17%;
+    width: 66%;*/
+    border: 1px solid red;
+    border-radius: 20px;
+    border-style: double;
+    padding: 5%;
+    background-color: lightblue;
+    border-spacing: 10px;
+    border-collapse: separate;
+  }
+input{
+    width: 100%;
+    height: 2em;
+    border-radius: 5px;
+}
+input:focus {
+    background-color: lightgreen;
+  }
+textarea{
+    width: 100%;
+    height: 10em;
+    border-radius: 5px;
+}
+textarea:focus {
+    background-color: lightgreen;
+  }
+button{
+    width: 100%;
+    height: 4em;
+    border-radius: 5px;
+    background-color: wheat;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
