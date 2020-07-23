@@ -5,7 +5,8 @@
     overflow-x: hidden;
 }
 body{
-    position: fixed;
+    position: absolute;
+    width: 100vw;
 }
 nav{
     display: flex;
